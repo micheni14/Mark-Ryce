@@ -10170,6 +10170,20 @@ header.masthead h1 {
   opacity: 1;
 }
 
+
+.cropper{
+  width:100%;
+  object-fit: cover;
+}
+
+.cropper >.portfolio-box{
+  height:33vh !important;
+  overflow: hidden;
+
+}
+
+
+
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
 }
